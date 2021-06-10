@@ -8,6 +8,8 @@ https://www.samueldowling.com/2020/06/08/how-to-set-up-a-python-project-and-deve
 
 https://packaging.python.org/guides/distributing-packages-using-setuptools/
 
+https://stackoverflow.com/questions/43658870/requirements-txt-vs-setup-py
+
 
 
 Write any kind of python to access bitcoin nodes and data,
