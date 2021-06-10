@@ -1,0 +1,31 @@
+# hostname or IP address of network node to connect to
+host=127.0.0.1
+
+# port of network node to connect to (default: 8333)
+port=8333
+
+# JSON-RPC server user, password.  Uses HTTP Basic authentication.
+rpcuser=XXXX
+rpcpass=YYYY
+
+# JSON-RPC server incoming TCP port (default: 9332)
+rpcport=9332
+
+# database directory
+db=/tmp/chaindb
+
+# log filename, or '-' or no-value for standard output
+log=/tmp/chaindb/node.log
+
+# if present, import these blocks into the block database
+loadblock=/tmp/blk0001.dat
+
+# if present, disable all signature checking in new blocks
+# (disabled by default)
+nosig=1
+
+# if present, force signature checking on all blocks,
+# even those normally skipped because they were prior
+# to a checkpoint.
+# (disabled by default)
+forcesig=1
