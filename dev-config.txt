@@ -15,7 +15,8 @@ rpcport=9332
 db=/tmp/chaindb
 
 # log filename, or '-' or no-value for standard output
-log=/tmp/chaindb/node.log
+#log=/tmp/chaindb/node.log
+log=/home/dlt01/ica/chaindb/node.log
 
 # if present, import these blocks into the block database
 loadblock=/tmp/blk0001.dat

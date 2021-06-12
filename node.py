@@ -25,7 +25,9 @@ if __name__ == '__main__':
 	if 'rpcport' not in settings:
 		settings['rpcport'] = 9332
 	if 'db' not in settings:
-		settings['db'] = '/tmp/chaindb'
+		#settings['db'] = '/tmp/chaindb'
+		#settings['db'] = '/home/dlt01/ica/ica01/chaindb'
+		settings['db'] = '/home/dlt01/ica/ica01/chaindb'	
 	if 'chain' not in settings:
 		settings['chain'] = 'mainnet'
 	chain = settings['chain']
@@ -40,4 +42,15 @@ if __name__ == '__main__':
 	settings['port'] = int(settings['port'])
 	settings['rpcport'] = int(settings['rpcport'])
 
-	log = Log.log(settings['log'])
+	log = Log.Log(settings['log'])
+
+	log.write("\n\n\n\n")
+
+	if chain not in NETWORKS:
+		log.write("invalid network")
+		sys.exit(1)
+
+
+
+
+
