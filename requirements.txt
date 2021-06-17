@@ -1,3 +1,7 @@
 ###### Requirements without Version Specifiers ######
 
-Log
+python-bitcoinlib
+bitcoin
+#GEvent
+#python-leveldb
+bitcoinlib

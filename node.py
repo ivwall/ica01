@@ -2,6 +2,11 @@ import sys
 import re
 
 import Log
+from bitcoin.core import *
+from bitcoinlib.networks import *
+#from bitcoin.coredefs import HETWORKS
+#from bitcoin.serialize import *
+
 
 settings = {}
 
@@ -50,7 +55,7 @@ if __name__ == '__main__':
 		log.write("invalid network")
 		sys.exit(1)
 
-
+	netmagic = NETWORKS[chain]
 
 
 

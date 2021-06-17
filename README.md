@@ -1,6 +1,10 @@
 
 A new approach to the bitcoin with python.
 
+https://kryptomusing.wordpress.com/2017/06/12/bitcoin-rpc-via-python/
+
+
+
 https://qavalidation.com/2021/01/how-to-create-use-requirements-txt-for-python-projects.html/
 pip install -r requirements.txt
 
